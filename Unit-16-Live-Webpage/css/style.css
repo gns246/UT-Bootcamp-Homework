@@ -1,0 +1,79 @@
+h1 {
+    text-align: center;
+    color:#D4Af37;
+    stroke-width: 5px;
+    outline-color: darkslategray;
+}
+
+.jumbotron-fluid {
+    background-color:lightgray;
+    margin-bottom: 0px;
+}
+
+.container {
+    background-color:lightgreen;
+}
+
+.btn-lg {
+  
+    background-color: #D4Af37;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;   
+}
+
+
+
+.btn-primary{
+    color: #fff;
+    background-color: #D4Af37;
+    border-color: #bb0ef0d3;
+    border-width: 1px;
+}
+
+.col-3 {
+    float: left;
+    width: 25%;
+    padding: 0px;
+  }
+
+
+.button1:hover {
+    box-shadow: 0 12px 16px 0 #bb0ef03b, 0 17px 50px 0 rgba(165, 14, 202, 0.19); 
+}
+i {
+    border: solid #D4Af37;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+footer { 
+    display: flex;
+}
+footer ul#footer-menu li{
+    display:inline;
+}
+footer ul#footer-menu li:hover{
+    color: #bb0ef0d3;
+    
+}
+
+
+
+
+/* <a class="btn btn-primary btn-lg:hover" href="Jumbo action link" role="button">Our Privacy Policy</a>*/
